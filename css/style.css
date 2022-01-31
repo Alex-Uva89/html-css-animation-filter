@@ -5,27 +5,37 @@
     width: 100px;
     height: 100px;
     border: 1px solid red;
+    /*aggiunta per attivazione transition*/
+    transition: background-color 3s;
 }
 .ex-2-square {
     width: 100px;
     height: 100px;
     background: red;
+    /*aggiunta per attivazione transition*/
+    transition: width 3s;
 }
 .ex-3-square {
     width: 100px;
     height: 100px;
     background: red;
+    /*aggiunta per attivazione transition*/
+    transition: border-radius 3s;
 }
 .ex-4-square {
     width: 100px;
     height: 100px;
     background: red;
+    /*aggiunta per attivazione transition*/
+    transition: background-color 3s;
 }
 .ex-5-square {
     margin: 20px;
     width: 60px;
     height: 60px;
     background: red;
+    /*aggiunta per attivazione transition*/
+    transition: all 3s;
 }
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
@@ -73,3 +83,28 @@
 
 /*______________SEZIONE EFFETTI__________________*/
 
+.ex-1-square:hover{
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.ex-2-square:hover{
+    width: 100%;
+}
+
+.ex-3-square:hover{
+    border-radius: 100%;
+}
+
+.ex-4-square:hover{
+    background-color: transparent;
+}
+.ex-5-square:hover{
+    margin: 0px;
+    width: 100px;
+    height: 100px;
+}
+.ex-5-square:active{
+    margin: 20px;
+    width: 40px;
+    height: 40px;
+}
